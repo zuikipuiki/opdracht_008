@@ -180,18 +180,12 @@ footer {
   font-style: italic;
 }
 
-@media (min-width: 1024px) {
+TRYING MEDIA QUERIES @media screen and (min-width: 1024px) {
   body {
-    background-color: rgb(167, 124, 124);
-  }
-}
-/* TRYING MEDIA QUERIES
-@media screen and (max-width: 768px) {
-  body {
-    background-color: rgb(141, 141, 141);
     width: auto;
     font-size: 1.2em;
     margin: auto;
+    color: grey;
   }
 
   .foto_text_float,
@@ -203,4 +197,8 @@ footer {
     padding: none;
   }
 }
-*/
+@media (min-width: 1024px) {
+  body {
+    background-color: rgb(167, 124, 124);
+  }
+}
